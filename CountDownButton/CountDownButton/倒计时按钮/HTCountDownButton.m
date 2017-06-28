@@ -83,7 +83,7 @@
     {
         if (__self.countDownChanging)
         {
-            __self.countDownChanging(__self,__self.endTime,[__self getInfo]);
+            __self.countDownChanging(__self,__self.limit,[__self getInfo]);
         }
     }
     else

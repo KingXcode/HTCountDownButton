@@ -21,8 +21,9 @@
     [super viewDidLoad];
     
     [self.Btn setCountDownChanging:^(HTCountDownButton *b,NSTimeInterval time,NSDictionary *info){
-        NSString *t = [NSString stringWithFormat:@"%@小时%@分%@秒%@",info[@"hours"],info[@"minutes"],info[@"seconds"],info[@"millisecond"]];
-        [b setTitle:t forState:UIControlStateNormal];
+//        NSString *t = [NSString stringWithFormat:@"%@小时%@分%@秒%@",info[@"hours"],info[@"minutes"],info[@"seconds"],info[@"millisecond"]];
+        
+        [b setTitle:[NSString stringWithFormat:@"%.1f",time] forState:UIControlStateNormal];
     }];
     
     [self.Btn setCountDownEnd:^(HTCountDownButton *b){
