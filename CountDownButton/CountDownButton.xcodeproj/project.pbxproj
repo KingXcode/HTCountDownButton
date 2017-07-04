@@ -14,8 +14,8 @@
 		1C33FF641F03B717000D0F88 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1C33FF631F03B717000D0F88 /* Assets.xcassets */; };
 		1C33FF671F03B717000D0F88 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C33FF651F03B717000D0F88 /* LaunchScreen.storyboard */; };
 		1CFEE3771F03BB8600875A01 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 1CFEE3761F03BB8600875A01 /* README.md */; };
-		CB70B9861F0B6ADE0011CAFA /* HTCountDownButton.m in Sources */ = {isa = PBXBuildFile; fileRef = CB70B9831F0B6ADE0011CAFA /* HTCountDownButton.m */; };
-		CB70B9871F0B6ADE0011CAFA /* UILabel+HTCountDown.m in Sources */ = {isa = PBXBuildFile; fileRef = CB70B9851F0B6ADE0011CAFA /* UILabel+HTCountDown.m */; };
+		CB70B98D1F0B783C0011CAFA /* HTCountDownButton.m in Sources */ = {isa = PBXBuildFile; fileRef = CB70B98A1F0B783C0011CAFA /* HTCountDownButton.m */; };
+		CB70B98E1F0B783C0011CAFA /* UILabel+HTCountDown.m in Sources */ = {isa = PBXBuildFile; fileRef = CB70B98C1F0B783C0011CAFA /* UILabel+HTCountDown.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,10 +30,10 @@
 		1C33FF661F03B717000D0F88 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1C33FF681F03B717000D0F88 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1CFEE3761F03BB8600875A01 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		CB70B9821F0B6ADE0011CAFA /* HTCountDownButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTCountDownButton.h; sourceTree = "<group>"; };
-		CB70B9831F0B6ADE0011CAFA /* HTCountDownButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTCountDownButton.m; sourceTree = "<group>"; };
-		CB70B9841F0B6ADE0011CAFA /* UILabel+HTCountDown.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+HTCountDown.h"; sourceTree = "<group>"; };
-		CB70B9851F0B6ADE0011CAFA /* UILabel+HTCountDown.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+HTCountDown.m"; sourceTree = "<group>"; };
+		CB70B9891F0B783C0011CAFA /* HTCountDownButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTCountDownButton.h; sourceTree = "<group>"; };
+		CB70B98A1F0B783C0011CAFA /* HTCountDownButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTCountDownButton.m; sourceTree = "<group>"; };
+		CB70B98B1F0B783C0011CAFA /* UILabel+HTCountDown.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+HTCountDown.h"; sourceTree = "<group>"; };
+		CB70B98C1F0B783C0011CAFA /* UILabel+HTCountDown.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+HTCountDown.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,7 +67,7 @@
 		1C33FF561F03B717000D0F88 /* CountDownButton */ = {
 			isa = PBXGroup;
 			children = (
-				CB70B9811F0B6ADE0011CAFA /* HTCountDownButton */,
+				CB70B9881F0B783C0011CAFA /* HTCountDownButton */,
 				1C33FF5A1F03B717000D0F88 /* AppDelegate.h */,
 				1C33FF5B1F03B717000D0F88 /* AppDelegate.m */,
 				1C33FF5D1F03B717000D0F88 /* ViewController.h */,
@@ -89,13 +89,13 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		CB70B9811F0B6ADE0011CAFA /* HTCountDownButton */ = {
+		CB70B9881F0B783C0011CAFA /* HTCountDownButton */ = {
 			isa = PBXGroup;
 			children = (
-				CB70B9821F0B6ADE0011CAFA /* HTCountDownButton.h */,
-				CB70B9831F0B6ADE0011CAFA /* HTCountDownButton.m */,
-				CB70B9841F0B6ADE0011CAFA /* UILabel+HTCountDown.h */,
-				CB70B9851F0B6ADE0011CAFA /* UILabel+HTCountDown.m */,
+				CB70B9891F0B783C0011CAFA /* HTCountDownButton.h */,
+				CB70B98A1F0B783C0011CAFA /* HTCountDownButton.m */,
+				CB70B98B1F0B783C0011CAFA /* UILabel+HTCountDown.h */,
+				CB70B98C1F0B783C0011CAFA /* UILabel+HTCountDown.m */,
 			);
 			path = HTCountDownButton;
 			sourceTree = "<group>";
@@ -174,9 +174,9 @@
 			files = (
 				1C33FF5F1F03B717000D0F88 /* ViewController.m in Sources */,
 				1C33FF5C1F03B717000D0F88 /* AppDelegate.m in Sources */,
-				CB70B9871F0B6ADE0011CAFA /* UILabel+HTCountDown.m in Sources */,
+				CB70B98E1F0B783C0011CAFA /* UILabel+HTCountDown.m in Sources */,
 				1CFEE3771F03BB8600875A01 /* README.md in Sources */,
-				CB70B9861F0B6ADE0011CAFA /* HTCountDownButton.m in Sources */,
+				CB70B98D1F0B783C0011CAFA /* HTCountDownButton.m in Sources */,
 				1C33FF591F03B717000D0F88 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
