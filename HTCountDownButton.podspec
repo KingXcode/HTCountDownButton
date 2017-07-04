@@ -24,8 +24,9 @@ Pod::Spec.new do |s|
   #   * Try to keep it short, snappy and to the point.
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
-  #s.description  = <<-DESC
-  #                 DESC
+  s.description  = <<-DESC
+                      HTCountDownButton 是一个倒计时的按钮和label分类
+                   DESC
 
   s.homepage     = "https://github.com/KingXcode/HTCountDownButton"
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
