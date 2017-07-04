@@ -67,7 +67,7 @@
 		1C33FF561F03B717000D0F88 /* CountDownButton */ = {
 			isa = PBXGroup;
 			children = (
-				1C33FF6E1F03B734000D0F88 /* 倒计时按钮 */,
+				1C33FF6E1F03B734000D0F88 /* HTCountDownButton */,
 				1C33FF5A1F03B717000D0F88 /* AppDelegate.h */,
 				1C33FF5B1F03B717000D0F88 /* AppDelegate.m */,
 				1C33FF5D1F03B717000D0F88 /* ViewController.h */,
@@ -89,7 +89,7 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		1C33FF6E1F03B734000D0F88 /* 倒计时按钮 */ = {
+		1C33FF6E1F03B734000D0F88 /* HTCountDownButton */ = {
 			isa = PBXGroup;
 			children = (
 				1C7B24B91F0494E600F291EC /* UILabel+HTCountDown.h */,
@@ -97,6 +97,7 @@
 				1CFEE3731F03B82300875A01 /* HTCountDownButton.h */,
 				1CFEE3741F03B82300875A01 /* HTCountDownButton.m */,
 			);
+			name = HTCountDownButton;
 			path = "倒计时按钮";
 			sourceTree = "<group>";
 		};
