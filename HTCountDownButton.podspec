@@ -90,11 +90,10 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "HTCountDownButton/*"
-  #, "HTCountDownButton/CountDownButton/CountDownButton/倒计时按钮/*.{h,m}"
+  s.source_files  = "CountDownButton/CountDownButton/HTCountDownButton/*.{h,m}"
   s.exclude_files = "UIKit"
 
-  # s.public_header_files = "Classes/**/*.h"
+  # s.public_header_files = "HTCountDownButton/**/*.h"
 
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
